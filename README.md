@@ -16,35 +16,6 @@ It handles authentication, blog management, comments, contact messages, and file
 
 ---
 
-## 📁 Project Structure
-
-📦src
- ┣ 📂config
- ┃ ┣ 📜cloudinary.js
- ┃ ┗ 📜db.js
- ┣ 📂controllers
- ┃ ┣ 📜authController.js
- ┃ ┣ 📜blogController.js
- ┃ ┣ 📜commentController.js
- ┃ ┗ 📜contactController.js
- ┣ 📂middleware
- ┃ ┣ 📜authMiddleware.js
- ┃ ┗ 📜uploadMiddleware.js
- ┣ 📂models
- ┃ ┣ 📜Blog.js
- ┃ ┣ 📜Comment.js
- ┃ ┣ 📜Contact.js
- ┃ ┗ 📜User.js
- ┣ 📂routes
- ┃ ┣ 📜authRoutes.js
- ┃ ┣ 📜blogRoutes.js
- ┃ ┣ 📜commentRoutes.js
- ┃ ┗ 📜contactRoutes.js
- ┣ 📂utils
- ┃ ┗ 📜sendEmail.js
- ┗ 📜server.js
----
-
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone the repository
